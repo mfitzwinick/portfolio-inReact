@@ -1,30 +1,56 @@
 import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron'
+import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Image from 'react-bootstrap/Image'
+import Michele from "../images/Michele.jpeg";
 import "../components/About.css"
-import "../images/me.jpeg"
 
 function AboutMe() {
     return (
         <div className="display">
-            <Jumbotron fluid>
-                <Container>
-                    <div>
-                        <h1>Fluid jumbotron</h1>
-                        <img src="../images/me.jpeg"></img>
-                    </div>
-                    <p>
-                        This is a modified jumbotron that occupies the entire horizontal space of
-                        its parent.
-    </p>
-                </Container>
-            </Jumbotron>
+            <Container fluid id="backdropAbout">
+                <Row>
+                    <Col></Col>
+                    <br />
+                    <h1 id="fullname" style={{ fontFamily: "Montserrat, sans-serif;" }}>
+                        Michele Fitzgerald-Winick
+                                </h1>
+                    <br />
+                    <Card style={{ float: "right" }} id="narrative">
+                        <Card.Body>
+                            <div id="innernarrativetext">
+                                <p>
+                                    Michele is a graduate of the Full Stack Web Development program at UCLA.  </p>
+                                <p>As a <span style={{ fontWeight: "bold" }}>MERN web developer</span>, she is experienced with MONGOdb, Express.js, React and Node.js.  Michele is well versed in HTML, CSS and Javascript, and has worked with the MySql database system.
 
+                            </p>
+                                <p>Michele has also obtained a Bachelor's degree from Syracuse University in Communications. Prior to her web development work, she was a licensed real estate agent, and worked in the financial sector in various roles.
+                            </p>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                    <Col>
+
+                        <Image id="michelepic"
+                            alt="Michele Pic"
+                            width={120}
+                            height={200}
+                            src={Michele}>
+                        </Image>
+                    </Col>
+                    <Col></Col>
+                    <Col>
+
+
+                    </Col>
+
+
+                </Row>
+            </Container>
 
         </div>
-
-
-
 
 
     )

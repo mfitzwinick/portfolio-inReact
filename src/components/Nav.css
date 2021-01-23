@@ -1,20 +1,29 @@
-.nav-area {
-  text-align: left;
-  background-color: rgb(199, 194, 194);
-  height: 5rem;
-  width: 100%;
-  letter-spacing: 3px;
-  margin-bottom: 50px;
-}
-
-.nav-link {
-  letter-spacing: 7px;
-  word-spacing: 20px;
+nav a {
   font-family: "Quicksand", sans-serif;
+  font-size: 20px;
   color: black;
+  background-color: rgb(199, 194, 194);
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  text-align: left;
   margin-top: 20px;
   padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 20px;
+  margin-right: 50px;
 }
+
+.nav-area {
+}
+
+nav a:hover {
+  background-color: white;
+  display: inline-block;
+}
+
 #label {
   margin-top: 20px;
   padding-top: 30px;
@@ -25,8 +34,4 @@
   font-family: "Rock Salt", cursive;
   font-weight: bold;
   font-size: x-large;
-}
-
-.location {
-  padding: 8px 20px;
 }

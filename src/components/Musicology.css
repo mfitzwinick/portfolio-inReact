@@ -1,0 +1,42 @@
+.display {
+  margin-left: 80px;
+  margin-right: 80px;
+  height: 400px;
+}
+#backdropMusicology {
+  background-color: rgba(0, 0, 0, 0.82);
+}
+
+#break {
+  background-color: white;
+  height: 30px;
+}
+#musicdrake {
+  width: 22%;
+  height: auto;
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+
+#fullname {
+  margin-left: 10px;
+  padding-left: 10px;
+  font-family: Montserrat, sans-serif;
+  font-size: xx-large;
+}
+
+#narrative {
+  float: right;
+  background-color: rgb(240, 232, 232);
+  width: 600px;
+  margin-right: 80px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), 2px 2px 5px rgba(0, 0, 0, 0.5),
+    -1px -1px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+}
+
+#innernarrativetext {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+}
