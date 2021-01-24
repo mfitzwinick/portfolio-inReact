@@ -1,14 +1,15 @@
 import React from "react"
-import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
+import More from "../components/More"
 
 function PortfolioB() {
     return (
         <div className="portfolioB">
-<Navigation />
-<Footer />
+            <h1 id="moreheading">Other Projects</h1>
+            <br />
+            <More />
 
         </div>
+
     );
 };
 

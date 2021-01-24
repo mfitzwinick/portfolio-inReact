@@ -4,12 +4,39 @@
   margin-right: 80px;
 }
 
-#backdropAbout {
+#backdropContact {
   background-color: rgb(89, 194, 68);
 }
+#contactheading {
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 20px;
+  margin-right: 50px;
+  font-family: "Rock Salt", cursive;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: right;
+}
 
-#michelepic {
-  width: 26%;
+#github {
+  width: 12%;
+  height: auto;
+  padding-left: 100px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  text-align: right;
+}
+#linkedin {
+  width: 12%;
+  height: auto;
+  padding-left: 700px;
+  padding-bottom: 20px;
+}
+
+#talkbubble {
+  width: 22%;
   height: auto;
   padding-left: 100px;
   padding-bottom: 20px;

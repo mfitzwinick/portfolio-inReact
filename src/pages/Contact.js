@@ -1,12 +1,13 @@
 import React from "react"
-import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
+import ContactBox from "../components/ContactBox"
+import "../components/Contact.css"
 
 function Contact() {
     return (
         <div className="contact">
-<Navigation />
-<Footer />
+            <h1 id="contactheading">How can I help?</h1>
+            <br />
+            <ContactBox />
 
         </div>
     );
