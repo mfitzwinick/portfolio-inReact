@@ -5,22 +5,22 @@ nav a {
   background-color: rgb(199, 194, 194);
   text-decoration: none;
   display: inline-block;
-  width: 100%;
+  width: 20%;
   height: auto;
   text-align: left;
   margin-top: 20px;
   padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: 20px;
-  margin-right: 50px;
+  margin-right: 10px;
 }
 
 .nav-area {
 }
 
 nav a:hover {
-  background-color: white;
+  background-color: #4682b4;
   display: inline-block;
 }
 

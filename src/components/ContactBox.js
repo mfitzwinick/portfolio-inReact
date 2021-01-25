@@ -4,11 +4,11 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import Michele from "../images/Michele.jpeg";
 import Talkbubble from "../images/Talkbubble.png"
 import "../components/Contact.css"
 import linkedin from "../images/linkedlogo.png"
 import github from "../images/github.png"
+import { Link } from "react-router-dom"
 
 function ContactBox() {
     return (
@@ -46,28 +46,31 @@ function ContactBox() {
                     </Col>
                     <Col></Col>
                     <Col>
-                        <Image id="linkedin"
-                            alt="linkedin"
-                            width={120}
-                            height={120}
-                            src={linkedin}>
-                        </Image>
-
-                        <Image id="github"
-                            alt="github"
-                            width={80}
-                            height={80}
-                            src={github}>
-                        </Image>
+                        <a href="https://www.linkedin.com/in/michele-fitzgerald-winick-1a2112b/">
+                            <Image id="linkedin"
+                                alt="linkedin"
+                                width={120}
+                                height={120}
+                                src={linkedin}>
+                            </Image>
+                        </a>
+                        <a href="https://github.com/mfitzwinick">
+                            <Image id="github"
+                                alt="github"
+                                width={80}
+                                height={80}
+                                src={github}>
+                            </Image>
+                        </a>
 
 
                     </Col>
 
 
                 </Row>
-            </Container>
+            </Container >
 
-        </div>
+        </div >
 
 
     )

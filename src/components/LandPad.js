@@ -12,7 +12,7 @@ function LandPad() {
 
         <div className="display">
             <Row id="break">
-
+                <h1 id="portfolioheading">PORTFOLIO</h1>
             </Row>
             <Container fluid id="backdropLandPad">
                 <Row>

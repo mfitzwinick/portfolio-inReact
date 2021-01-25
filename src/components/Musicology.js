@@ -33,18 +33,21 @@ function Musicology() {
                                 <p>Within the development team, Michele focused primarily on front end design.
                             </p>
                                 <br />
-                                <h3>Link Here</h3>
+                                <a href="https://mfitzwinick.github.io/binary-babes/">
+                                <h3>https://mfitzwinick.github.io/binary-babes/</h3>
+                                </a>
                             </div>
                         </Card.Body>
                     </Card>
                     <Col>
-
-                        <Image id="musicdrake"
-                            alt="Drake Music"
-                            width={120}
-                            height={200}
-                            src={MusicDrake}>
-                        </Image>
+                        <a href="https://mfitzwinick.github.io/binary-babes/">
+                            <Image className="flash" id="musicdrake"
+                                alt="Drake Music"
+                                width={120}
+                                height={200}
+                                src={MusicDrake}>
+                            </Image>
+                        </a>
                     </Col>
                     <Col></Col>
                     <Col>

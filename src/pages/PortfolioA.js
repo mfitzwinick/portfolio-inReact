@@ -7,8 +7,7 @@ import "../pages/PortfolioA.css"
 function PortfolioA() {
     return (
         <div className="portfolioA">
-            <h1 id="portfolioheading">PORTFOLIO</h1>
-
+            
             <LandPad />
             <ItaliaToday />
             <Musicology />
