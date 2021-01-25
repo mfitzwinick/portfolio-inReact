@@ -2,7 +2,7 @@
 
 This is a representation of my web development work.
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com/images/badges/powered-by-coffee.svg)
+[![forthebadge]](https://forthebadge.com/images/badges/powered-by-coffee.svg)
 
 ## Languages
 
