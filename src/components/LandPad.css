@@ -1,7 +1,7 @@
 .display {
   margin-left: 80px;
   margin-right: 80px;
-  height: 400px;
+  height: 500px;
 }
 
 #backdropLandPad {
@@ -12,8 +12,8 @@
   background-color: white;
   height: 50px;
 }
-#landpadimg {
-  width: 26%;
+#landpadplan {
+  width: 30%;
   height: auto;
   padding-left: 100px;
   padding-bottom: 20px;

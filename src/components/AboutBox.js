@@ -22,11 +22,11 @@ function AboutMe() {
                         <Card.Body>
                             <div id="innernarrativetext">
                                 <p>
-                                    Michele is a graduate of the Full Stack Web Development program at UCLA.  </p>
+                                    Michele is a graduate of the Full Stack Web Development program at the University of Califoria, Los Angeles.  </p>
                                 <p>As a <span style={{ fontWeight: "bold" }}>MERN web developer</span>, she is experienced with MONGOdb, Express.js, React and Node.js.  Michele is well versed in HTML, CSS and Javascript, and has worked with the MySql database system.
 
                             </p>
-                                <p>Michele has also obtained a Bachelor's degree from Syracuse University in Communications. Prior to her web development work, she was a licensed real estate agent, and worked in the financial sector in various roles.
+                                <p>Michele has also obtained a Bachelor's degree from Syracuse University in Communications. She is a licensed real estate agent, and worked in the financial sector in various roles.
                             </p>
                             </div>
                         </Card.Body>

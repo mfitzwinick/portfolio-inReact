@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import LandPadTemp from "../images/LandPadTemp.png";
+import LandpadPlan from "../images/LandpadPlan.png";
 import "../components/LandPad.css"
 
 function LandPad() {
@@ -33,17 +33,17 @@ function LandPad() {
                                 <p>Michele worked within a four-person development team, focused primarily on back end functionality, but was also instrumental in it's concept and design.  The site uses Password Authentication, several Mongo db collections, and an interactive dashboard.
                             </p>
                                 <br />
-                                <h3>Link Here</h3>
+                                <h3>Link Pending</h3>
                             </div>
                         </Card.Body>
                     </Card>
                     <Col>
 
-                        <Image id="landpadimg"
-                            alt="Land Pad"
-                            width={120}
-                            height={200}
-                            src={LandPadTemp}>
+                        <Image id="landpadplan"
+                            alt="Land Pad Plan"
+                            width={500}
+                            height={350}
+                            src={LandpadPlan}>
                         </Image>
                     </Col>
                     <Col></Col>

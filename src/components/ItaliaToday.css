@@ -1,7 +1,7 @@
 .display {
   margin-left: 80px;
   margin-right: 80px;
-  height: 400px;
+  height: 500px;
 }
 #backdropItaliaToday {
   background-color: rgb(223, 175, 219);
@@ -12,7 +12,7 @@
   height: 30px;
 }
 #italiamain {
-  width: 26%;
+  width: 30%;
   height: auto;
   padding-left: 100px;
   padding-bottom: 20px;

@@ -34,7 +34,7 @@ function Musicology() {
                             </p>
                                 <br />
                                 <a href="https://mfitzwinick.github.io/binary-babes/">
-                                <h3>https://mfitzwinick.github.io/binary-babes/</h3>
+                                    <h3>https://mfitzwinick.github.io/binary-babes/</h3>
                                 </a>
                             </div>
                         </Card.Body>
@@ -43,8 +43,8 @@ function Musicology() {
                         <a href="https://mfitzwinick.github.io/binary-babes/">
                             <Image className="flash" id="musicdrake"
                                 alt="Drake Music"
-                                width={120}
-                                height={200}
+                                width={500}
+                                height={350}
                                 src={MusicDrake}>
                             </Image>
                         </a>

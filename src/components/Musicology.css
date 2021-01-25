@@ -1,7 +1,7 @@
 .display {
   margin-left: 80px;
   margin-right: 80px;
-  height: 400px;
+  height: 500px;
 }
 #backdropMusicology {
   background-color: rgba(0, 0, 0, 0.82);
@@ -12,7 +12,7 @@
   height: 30px;
 }
 #musicdrake {
-  width: 22%;
+  width: 30%;
   height: auto;
   padding-left: 100px;
   padding-bottom: 20px;
@@ -29,7 +29,7 @@
   float: right;
   background-color: rgb(240, 232, 232);
   width: 600px;
-  margin-right: 80px;
+  margin-right: 50px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), 2px 2px 5px rgba(0, 0, 0, 0.5),
     -1px -1px 5px rgba(0, 0, 0, 0.2);
   border-radius: 25px;
