@@ -40,3 +40,37 @@
   margin-right: 20px;
   font-family: "Source Sans Pro", sans-serif;
 }
+
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.flash:hover {
+  opacity: 1;
+  -webkit-animation: a 1s;
+  animation: flash 1s;
+}
+@-webkit-keyframes flash {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}

@@ -33,19 +33,22 @@ function ItaliaToday() {
                                 <p>Michele pitched this concept during the global pandemic for both future travelers (Travel Section) and non-travelers (Italy at Home Section) alike.  The site uses API calls to populate MySql databases. It features multiple search functions and a music player.  The development team consisted of four members who coordinated through github.
                             </p>
                                 <br />
-                                <h3>Link Pending</h3>
+                                <a href="https://nameless-plateau-64183.herokuapp.com/index.html">
+                                    <h3>https://nameless-plateau-64183.herokuapp.com/index.html</h3>
+                                </a>
                             </div>
                         </Card.Body>
                     </Card>
                     <Col>
-
-                        <Image id="italiamain"
-                            alt="Italia Today"
-                            width={500}
-                            height={350}
-                            src={ItaliaMain}>
-                        </Image>
-                    </Col>
+                        <a href="https://nameless-plateau-64183.herokuapp.com/index.html">
+                            <Image className="flash" id="italiamain"
+                                alt="Italia Today"
+                                width={500}
+                                height={350}
+                                src={ItaliaMain}>
+                            </Image>
+                        </a>
+                    </Col >
                     <Col></Col>
                     <Col>
 
@@ -53,8 +56,8 @@ function ItaliaToday() {
                     </Col>
 
 
-                </Row>
-            </Container>
+                </Row >
+            </Container >
 
         </div >
 

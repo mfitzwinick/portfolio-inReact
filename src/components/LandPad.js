@@ -33,18 +33,20 @@ function LandPad() {
                                 <p>Michele worked within a four-person development team, focused primarily on back end functionality, but was also instrumental in it's concept and design.  The site uses Password Authentication, several Mongo db collections, and an interactive dashboard.
                             </p>
                                 <br />
-                                <h3>Link Pending</h3>
+                                <a href="https://radiant-stream-54517.herokuapp.com/">
+                                    <h3>https://radiant-stream-54517.herokuapp.com/</h3></a>
                             </div>
                         </Card.Body>
                     </Card>
                     <Col>
-
-                        <Image id="landpadplan"
-                            alt="Land Pad Plan"
-                            width={500}
-                            height={350}
-                            src={LandpadPlan}>
-                        </Image>
+                        <a href="https://radiant-stream-54517.herokuapp.com/">
+                            <Image className="flash" id="landpadplan"
+                                alt="Land Pad Plan"
+                                width={500}
+                                height={350}
+                                src={LandpadPlan}>
+                            </Image>
+                        </a>
                     </Col>
                     <Col></Col>
                     <Col>
